@@ -1,18 +1,112 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **personal portfolio website** built using **React + Vite + TypeScript**, styled with **Tailwind CSS** and powered by **shadcn/ui** components.
+This portfolio showcases my skills, projects, certifications, and professional presence in a clean and scalable way.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## React Compiler
+* **Frontend:** React + Vite
+* **Language:** TypeScript (TSX)
+* **Styling:** Tailwind CSS
+* **UI Components:** shadcn/ui, Radix UI
+* **Icons:** Lucide React
+* **Build Tool:** Vite
+* **Version Control:** Git & GitHub
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## ✨ Features
 
-## Expanding the ESLint configuration
+* ⚡ Fast and optimized Vite build
+* 🎨 Clean, modern UI with dark theme
+* 🧩 Reusable and accessible UI components
+* 📱 Fully responsive (mobile-first design)
+* 🏆 Sections for projects, skills, certifications, and contact
+* 🔗 Social links (GitHub, LinkedIn, Instagram, X, Credly)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Project Structure
+
+```
+src/
+├── components/
+│   ├── ui/              # shadcn UI components
+│   └── portfolio/       # Portfolio sections
+├── hooks/               # Custom hooks
+├── lib/                 # Utility functions
+├── assets/              # Images and static files
+├── App.tsx
+├── main.tsx
+└── index.css
+```
+
+---
+
+## 🛠️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/imsohail07/first-portfolio.git
+cd first-portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open in browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## 🔮 Future Enhancements
+
+* 🌍 Deployment with GitHub Pages / Vercel
+* 📄 Downloadable resume
+* ✨ Animations and micro-interactions
+* 📊 Dynamic project data
+
+---
+
+## 👤 Author
+
+**Mohammed Sohail Shirazi**
+
+* GitHub: [https://github.com/imsohail07](https://github.com/imsohail07)
+* Portfolio: Coming soon 🚀
+
+---
+
+## 📄 License
+
+This project is for personal and portfolio use.
+All rights reserved unless otherwise stated.
